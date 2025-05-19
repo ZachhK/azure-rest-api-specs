@@ -31,6 +31,8 @@ options:
     examples-dir: "{project-dir}/examples"
     clear-output-folder: true
   "@azure-tools/typespec-ts":
+    package-dir: "ai-agents"
+    is-modular-library: true
     api-version: "v1"
     generateTest: true
     generateMetadata: false
